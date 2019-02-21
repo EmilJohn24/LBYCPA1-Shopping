@@ -1,10 +1,10 @@
 # LBYCPA1-Shopping
-Members: <br>
+<h2>Members: </h2><br>
   Chua, Jet <br>
   Lopez, Emil <br>
   Solis, Josef <br>
  
-<h1>Editing this project</h1>
+<h2>Editing this project</h2>
   To edit this project, do the following steps: <br>
   1. Download Git for Windows: https://git-scm.com/download/win <br>
   2. In the command prompt (CMD), run: <br>

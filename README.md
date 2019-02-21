@@ -5,7 +5,7 @@ Members: <br>
   Solis, Josef <br>
  
 <h1>Editing this project</h1>
-  To edit this project, take the following steps: <br>
+  To edit this project, do the following steps: <br>
   1. Download Git for Windows: https://git-scm.com/download/win <br>
   2. In the command prompt (CMD), run: <br>
   <code> git clone https://github.com/EmilJohn24/LBYCPA1-Shopping.git  </code>

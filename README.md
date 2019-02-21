@@ -12,7 +12,7 @@ Members: <br>
   <br>
   3. Open the project "LBYCPA1 Shopping" on PyCharm. After editing, go to CMD and type:
   <br>
-  <code> cd ".\LBYCPA1-Shopping" </code>
+  <code> cd ".\LBYCPA1-Shopping" </code> <br>
   <code> git add * </code> <br>
   4. Finally, in CMD, type: <br>
   <code> git commit -m "Write a message about changes you've made here" </code>

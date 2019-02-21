@@ -12,8 +12,13 @@ Members: <br>
   <br>
   3. Open the project "LBYCPA1 Shopping" on PyCharm. After editing, go to CMD and type:
   <br>
+  <code> cd ".\LBYCPA1-Shopping" </code>
   <code> git add * </code> <br>
   4. Finally, in CMD, type: <br>
   <code> git commit -m "Write a message about changes you've made here" </code>
+  <br>
+  Then, <br>
+  <code> git push </code> 
+  5. Log in to GitHub using your own account when CMD asks for your username and password (this step will only happen once). Wait for the upload to finish.
   
   

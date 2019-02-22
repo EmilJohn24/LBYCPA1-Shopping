@@ -1,4 +1,5 @@
 import products
+import os
 
 # changed cart format to {"name": name, "price": price, "count": count} for convenience
 
@@ -42,6 +43,7 @@ def take_user_action():
     print("What do you wish to do?")
     print("1-Add More Products To Cart <3")
     print("2-Remove Products From Cart :(")
+    print("3-Search for Product")
     print("3-Checkout <3 <3")
     choice = int(input("Your choice: "))
 

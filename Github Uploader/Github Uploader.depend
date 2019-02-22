@@ -1,0 +1,16 @@
+# depslib dependency file v1.0
+1550770041 source:c:\users\acer\projects\lbycpa1-shopping\github uploader\github_uploader.cpp
+	<stdio.h>
+	<stdlib.h>
+	<windows.h>
+	<string>
+	<iostream>
+	"git.h"
+
+1550770154 c:\users\acer\projects\lbycpa1-shopping\github uploader\git.h
+	<string>
+	<windows.h>
+	<Lmcons.h>
+	<iostream>
+	<stdio.h>
+

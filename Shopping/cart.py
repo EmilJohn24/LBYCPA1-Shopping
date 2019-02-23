@@ -1,5 +1,4 @@
 import products
-import os
 
 # changed cart format to {"name": name, "price": price, "count": count} for convenience
 

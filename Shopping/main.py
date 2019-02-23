@@ -1,5 +1,4 @@
 from os import system
-import products
 import cart
 import welcome
 

@@ -5,6 +5,8 @@
   Solis, Josef <br>
  
 <h2>Editing this project</h2>
+Press Clone/Download, then Download ZIP. Send edited version to Emil hahaha
+<!--
   To edit this project, do the following steps: <br>
   1. Download Git for Windows: https://git-scm.com/download/win <br>
   2. In the command prompt (CMD), run: <br>
@@ -22,3 +24,4 @@
   5. Log in to GitHub using your own account when CMD asks for your username and password (this step will only happen once). Wait for the upload to finish.
   
   
+-->

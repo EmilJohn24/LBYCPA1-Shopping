@@ -1,4 +1,5 @@
 import products
+import checkout
 
 # changed cart format to {"name": name, "price": price, "count": count} for convenience
 
@@ -30,6 +31,7 @@ def add_product(item_number, category_list, count):
         buy()
     category_list[item_number]['stock'] = new_count
     cart.append(category_list[item_number])
+    cart[len(cart) - 1]['count'] = count
 
 
 def remove_product(cart_number, count):
@@ -38,19 +40,22 @@ def remove_product(cart_number, count):
         del cart[cart_number]
 
 
-def take_user_action():
+def take_user_action(info):
     print("What do you wish to do?")
     print("1-Add More Products To Cart <3")
     print("2-Remove Products From Cart :(")
-    print("3-Search for Product")
     print("3-Checkout <3 <3")
     choice = int(input("Your choice: "))
 
     if choice == 1:
         buy()
+        take_user_action(info)
     # if the user chose to remove something
     if choice == 2:
         display_cart()
         cart_number = int(input("Type the number of the product you'd like removed: "))
         count = int(input("How many would you like to remove: "))
         remove_product(cart_number, count)
+        take_user_action(info)
+    if choice == 3:
+        checkout.summary(cart, info)

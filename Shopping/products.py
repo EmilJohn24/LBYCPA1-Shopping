@@ -35,6 +35,9 @@ def display_categories():
 
 def get_category_from_user(categories):
     category = int(input("Type the number of your category: ")) - 1
+    if category not in range(0, len(categories) - 1):
+        print('Error: Invalid category')
+        buy()
     return products[categories[category]]
 
 

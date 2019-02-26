@@ -26,11 +26,17 @@ def buy():
 
 
 def add_product(item_number, category_list, count):
+    if item_number not in range(0, len(category_list - 1)):
+        print('Invalid item number')
+        buy()
+        return
+    
     new_count = category_list[item_number]['stock'] - count
     if new_count <= 0:
         print('Out of stock')
         buy()
         return
+   
     category_list[item_number]['stock'] = new_count
     cart.append(category_list[item_number])
     cart[len(cart) - 1]['count'] = count

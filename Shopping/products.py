@@ -10,12 +10,13 @@ def product(name, price, stock):
 products = {
 
 
-    "Phones": [product("iPhone8", 39490, 50), product("iPhoneXR", 50990, 100), product("iPhoneXs", 67990, 150)],
-    "Earphones": [product("AirPods", 7451, 250), product("EarPods", 1790, 200)],
-    "Laptops": [product("Macbook Air", 86990, 100), product("Macbook", 94990, 100),
-                product("Macbook Pro", 173990, 50)],
-    "Watch": [product("Apple Watch Series 3", 17990, 100)],
-    "Tablets": [product("iPad Pro", 42490, 30), product("iPad", 20990, 50), product("iPad Mini 4", 23990, 50)]
+    "Phones": [product("iPhone 7 Plus", 29990, 30), product("iPhone8", 39490, 50),       product("iPhoneXR", 50990, 100),
+               product("iPhoneXs", 67990, 150), product("iPhoneXs Marks", 79990, 150)],
+    "Earphones": [product("AirPods  ", 7451, 250), product("EarPods", 1790, 200)],
+    "Laptops": [product("Markbook Air", 86990, 100), product("Markbook", 94990, 100),
+                product("Markbook Pro", 173990, 50)],
+    "Watch": [product("Apple Watch Series 3", 17990, 100), product("Apple Watch Series 2", 13990, 100)],
+    "Tablets": [product("iPadilla Pro", 42490, 30), product("iPadilla", 20990, 50), product("iPadilla Mini 4", 23990, 50)],
 }
 
 
@@ -39,8 +40,6 @@ def get_category_from_user(categories):
 def display_products_from(category):
     for index, item in enumerate(category):
         print(f"{index}. {item['name']} -- {item['price']}")
-
-
 
 
 

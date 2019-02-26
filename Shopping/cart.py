@@ -20,7 +20,7 @@ def buy():
     categories = products.display_categories()
     category = products.get_category_from_user(categories)
     products.display_products_from(category)
-    item = int(input("Choose a product: "))
+    item = int(input("Choose a product: ")) - 1
     count = int(input("How many? "))
     add_product(item, category, count)
 
@@ -59,7 +59,7 @@ def search_item(item_name, info):
         buy()
     else:
         print('Which would you like to buy?')
-        choice = int(input())
+        choice = int(input()) - 1
         count = int(input('How many? '))
         add_product(search_results[choice][0], search_results[choice][1], count)
         take_user_action(info)

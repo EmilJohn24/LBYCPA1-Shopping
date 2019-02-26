@@ -27,19 +27,20 @@ def get_products_in(category):
 def display_categories():
     categories = []  # List for category names to be used for quick index lookup of categories in get_category_from_user
     for index, category in enumerate(products.keys()):
+        number = index + 1
         categories.append(category)
-        print("{0}. {1}".format(index, category))
+        print("{0}. {1}".format(number, category))
     return categories
 
 
 def get_category_from_user(categories):
-    category = int(input("Type the number of your category: "))
+    category = int(input("Type the number of your category: ")) - 1
     return products[categories[category]]
 
 
 def display_products_from(category):
     for index, item in enumerate(category):
-        print(f"{index}. {item['name']} -- {item['price']}")
+        print(f"{index + 1}. {item['name']} - Php {item['price']}")
 
 
 
